@@ -1,6 +1,6 @@
 <?php
 
-//*** DEMO FUNCTION PHP ***
+//*** DEMO FUNCTION PHP ****
 function myfunction()
 {
     //Some Code Here

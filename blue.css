@@ -1,0 +1,92 @@
+
+body
+{
+	color: #003a79;
+  background-color: #EAEDF0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  	
+  background-position: center center;      
+  background-origin: border-box;           
+  background-image: url('/webb/cssback/pics/Beach-Horizon_alt.jpg');
+  background-repeat: no-repeat;           
+	background-size: cover; 
+}
+
+form
+{
+	background-color: rgba(243,245,247,0.4); 
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, .8);
+  border-radius: 10px;
+}
+
+#result
+{
+	color: #f3f5f7;
+	border: 1px solid #003a79;
+	background-color: rgba(0,58,121,0.4);
+	box-shadow: 1px 1px 25px white;
+  border-radius: 10px;
+}
+
+.form-row-header 
+{
+  font-size: 14px;
+}
+
+
+.form-row input[type='email'], .form-row input[type='text'] 
+{
+  border: 1px solid #B0CFE0;
+  border-radius: 5px;
+}
+
+.form-row select 
+{
+  border: 1px solid #B0CFE0;
+  border-radius: 5px;
+}
+
+.form-row textarea 
+{
+  border: 1px solid #B0CFE0;
+  border-radius: 5px;
+}
+
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus
+{
+    box-shadow: 0 0 15px #2b5871;
+    border: 1px solid #2b5871;
+}
+
+.form-row input[type='submit'] 
+{
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #5995DA;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row input[type='submit']:hover {
+  background-color: #76AEED;
+}
+
+.form-row input[type='submit']:active {
+  background-color: #407FC7;
+}
+
+.output-row
+{
+  background-color: rgba(0,58,121,0.4);
+  border-radius: 5px;
+}
+
+.output-row > span 
+{
+  color: #c2c6c5;
+}
